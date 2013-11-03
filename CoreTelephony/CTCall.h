@@ -78,6 +78,7 @@ extern "C" {
     CFStringRef CTCallCopyName(CFAllocatorRef allocator, CTCallRef call);
     CFStringRef CTCallCopyCountryCode(CFAllocatorRef allocator, CTCallRef call);
     CFStringRef CTCallCopyNetworkCode(CFAllocatorRef allocator, CTCallRef call);
+    ABRecordID CTCallGetID(CTCallRef);
 
     CFStringRef CTCallCopyUniqueStringID(CFAllocatorRef allocator, CTCallRef call);
 
